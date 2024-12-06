@@ -51,7 +51,7 @@ login_secrets = {
         "Password":"password2"
     }
 }
-deleteList = ["GF899"]
+deleteList = ["GF899","GF8991"]
 for currency in currencies:
     accessToken = getAccessToken(api_login_url,login_secrets[currency])
     for item in deleteList:    
