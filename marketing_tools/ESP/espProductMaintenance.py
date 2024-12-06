@@ -37,7 +37,9 @@ def deleteProductFromESP(api_delete_product_url:str,accessToken:str,item_cd:str)
     else:
         print(f"Failed to delete product. Status code: {response.status_code}")
         print("Response:", response.text)  
-         
+def printInfo():
+    print("Welcome")
+             
 currencies = ["CAD","USD"]
 login_secrets = {
     "CAD": {
@@ -51,6 +53,7 @@ login_secrets = {
         "Password":"password2"
     }
 }
+
 deleteList = ["GF899"]
 for currency in currencies:
     accessToken = getAccessToken(api_login_url,login_secrets[currency])
