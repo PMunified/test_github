@@ -36,9 +36,10 @@ def deleteProductFromESP(api_delete_product_url:str,accessToken:str,item_cd:str)
         print("Delete product successfully!")
     else:
         print(f"Failed to delete product. Status code: {response.status_code}")
-        print("Response:", response.text)  
+        print("Response:", response.text) 
+         
 def printInfo():
-    print("Welcome")
+    print("Welcome to printinfo function.")
              
 currencies = ["CAD","USD"]
 login_secrets = {
