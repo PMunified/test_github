@@ -1,0 +1,20 @@
+ITEM_FLD_ID_UAT_DISPLAY_ONLY = 323
+UAT_DISPLAY_ONLY_YES = 1
+UAT_DISPLAY_ONLY_NO = 0
+ITEM_STATUS_LAUNCH = "lau"
+ITEM_STATUS_DISCONTINUOUS = "dis"
+ITEM_STATUS_WQL = "wql"
+ITEM_STATUS_ACTIVE = "act"
+#COSTING_UPDATE_URL = "http://172.16.0.22/costing/updateDataFromMDB.php"
+COSTING_UPDATE_URL = "http://172.16.0.102/costing/updateDataFromMDB.php"
+ACCESS_USER = "magento"
+SERVER_IP = "connect.spectorandco.com"
+PORT_NUM = 1433
+DATABASE = "100"
+PWD = "magento5700"
+ODBC_DRIVER = "{SQL SERVER}"
+
+MONGODB_HOSTED_IP = "104.207.251.33"
+MONGODB_DATABASE_NAME = "ashburyDB"
+MONGODB_DATABASE_TABLE_NAME = "products"
+SPECTOR_ITEM_IMAGE_URL_BASE = "https://www.spectorandco.com/product_images/products/"
