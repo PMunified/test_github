@@ -13,7 +13,7 @@ class classFileHandler:
         print("Update item code to mongoDB.....")   
         
     def update_info_mongoDB():
-        print("")        
+        print("welcome to themos...")        
             
     def getLaunchItemList(self):
             #print(abc)
