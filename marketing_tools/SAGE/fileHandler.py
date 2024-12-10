@@ -10,7 +10,10 @@ class classFileHandler:
         print("Item code change.") 
         
     def update_item_to_mongoDB():
-        print("Update item code to mongoDB.....")       
+        print("Update item code to mongoDB.....")   
+        
+    def update_info_mongoDB():
+        print("")        
             
     def getLaunchItemList(self):
             #print(abc)
