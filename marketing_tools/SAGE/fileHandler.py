@@ -3,7 +3,9 @@ class classFileHandler:
     def __init__(self,filePath):
         self.filePath = filePath
     
-        
+    def test():
+        print("Test function")
+            
     def getLaunchItemList(self):
             #print(abc)
             itemList = list()
