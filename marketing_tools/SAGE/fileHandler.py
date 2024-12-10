@@ -5,6 +5,9 @@ class classFileHandler:
     
     def test():
         print("Test function")
+        
+    def test_item_code_change():
+        print("Item code change.")    
             
     def getLaunchItemList(self):
             #print(abc)
