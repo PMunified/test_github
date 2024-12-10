@@ -196,7 +196,7 @@ for id in supplierIds:
     updateProductsCategory(id,updatedProducts)
 ''' 
 # Delete items from SAGE
-deleteList = ["GF899"]
+deleteList = ["G4019"]
 supplierIds = ["61086","65332"]   
 for id in supplierIds: 
     print("Process Suppplier Id:"+id)    
