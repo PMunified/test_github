@@ -40,7 +40,6 @@ def deleteProductFromESP(api_delete_product_url:str,accessToken:str,item_cd:str)
          
 def printInfo():
     print("Welcome to printinfo function.")
-    print("sdvdfsgfj")
     print("welcome to here")
         
              
